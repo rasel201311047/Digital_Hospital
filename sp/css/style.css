@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column: 1/4;
+    background-color: #2b3337;
+  
+}
+header nav{
+    text-align: right;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 80px;
+
+}
+header nav a{
+    color: #ffff;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+/* hd */
+.search .A{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search .A input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid rgb(73, 72, 72);
+    outline: none;
+}
+#search{
+    background-color: green;
+    border: none;
+    color: white;
+}
+#search:hover{
+    border: 1px solid rgb(4, 34, 4);
+    background-color: rgb(4, 63, 4);
+}
+
+/* 2nd */
+.dc {
+    margin-top: 0;
+
+}
+
+.dc .A{
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.dc .A .B{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dc .A .C{
+    box-shadow: inset 0px 0px 10px 5px rgb(231 239 245);
+    width: 250px;
+    margin: 10px;
+}
+.dc .A .B .C .D{
+    margin-top: 20px;
+    text-align: center;
+}
+.dc .A .B .C .E{
+    margin: 10px;
+}
+.dc .A .B .C .E p{
+    line-height: 20px;
+    font-weight: bold;
+    color: rgb(92, 91, 91);
+    text-transform: capitalize;
+}
+.dc .A .B .C .E h4{
+    font-size: 20px;
+    color: green;
+}
+#ssm{
+    color: green;
+    font-weight: bold;
+}
+
+.dc .A .B .C img{
+    width: 150px;
+    height: 150px;  
+}
+.dc .A .B .C .E .lin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: green;
+}
+.dc .A .B .C .E .lin a{
+    color: green;
+
+}
+.dc .A .B .C .E .lin a:hover{
+    color: red;
+
+}
+
+
+/* 3rd */
+.rb{
+  
+    background-color: #2b3337;
+    height: 220px;
+  }
+  .rb .AA{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rb .AA .A{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  .rb .AA .A img{
+    border: 3px solid white;
+    border-radius: 100%;
+    max-width: 100px;
+    max-height: 100px;
+ 
+  }
+  .rb .AA .A h3{
+    font-family: Lucida Handwriting,Cursive;
+    font-size: 20px;
+    color: white;
+  }
+  .rb .AA .A p{
+    font-size: 16px;
+    color: #f8fafb;
+  }
+  .rb .AA .B a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+ 
+  }
+  .rb .AA .B a:hover{
+    font-size: 20px;
+  }

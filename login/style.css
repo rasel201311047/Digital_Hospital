@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column: 1/4;
+    background-color: #2b3337;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header nav{
+    text-align: right;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 80px;
+
+}
+header nav a{
+    color: #ffff;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+header nav a:hover{
+    color: aqua;
+    font-weight: bold;
+    border-bottom: 2px solid aqua;
+}
+header img{
+    margin-left: 40px;
+}
+.main{
+    margin-top: 150px ;
+    margin-bottom: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fm{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2b3337;
+    width: 400px;
+    height: 450px;
+    border:5px solid rgb(20, 192, 20);
+    border-radius: 2px 60px 2px 60px;
+}
+.fm h1{
+    color: white;
+    padding: 0 95px 0px 95px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    border:2px solid rgb(20, 192, 20);
+    border-radius: 2px 60px 2px 60px;
+}
+.fm .A{
+    margin: 10px;
+    padding: 10px 35px 10px 35px;
+    border-bottom:5px solid rgb(20, 192, 20);
+    border-radius: 2px 60px 2px 60px;
+    background-color: #2b3337;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    color: white;
+}
+.fm .B{
+    margin: 10px;
+    font-weight: bold;
+    color: #2b3337;
+    background-color: white;
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+.fm a:hover{
+   background-color: aqua;
+
+}
+
+
+.rb{
+    margin-top: 20px;
+    background-color: #2b3337;
+    height: 220px;
+  }
+  .rb .AA{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rb .AA .A{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .rb .AA .A img{
+    border: 3px solid white;
+    border-radius: 100%;
+    max-width: 100px;
+    max-height: 100px;
+
+  }
+  .rb .AA .A h3{
+    font-family: Lucida Handwriting,Cursive;
+    font-size: 20px;
+    color: white;
+  }
+  .rb .AA .A p{
+    font-size: 16px;
+    color: #f8fafb;
+  }
+  .rb .AA .B a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+
+  }
+  .rb .AA .B a:hover{
+    font-size: 20px;
+  }
